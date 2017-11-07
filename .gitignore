@@ -1,3 +1,15 @@
+# MacOS
+.DS_Store
+
+# model
+*.json
+*.hdf5
+
+# data sets
+images/
+test/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
