@@ -11,7 +11,7 @@ def main():
     optimizer = Adam(lr=0.0001)
     save_model(model, 'model.json')
     model.compile(loss='categorical_crossentropy', optimizer=optimizer)
-    model.fit(sets, labels, epochs=200)
+    model.fit(sets, labels, epochs=5000)
     model.save_weights('weights.hdf5')
 
 
